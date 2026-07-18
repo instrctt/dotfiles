@@ -5,7 +5,6 @@ binds {
     Mod+Q { spawn "kitty"; }
     Mod+B { spawn "librewolf"; }
     Mod+E { spawn "thunar"; }
-
     Mod+Alt+P { spawn "pavucontrol"; }
 
     // Pipewire Control
@@ -91,8 +90,13 @@ binds {
     Mod+Ctrl+Shift+R { switch-preset-window-height; }
     Mod+Ctrl+R { reset-window-height; }
 
+    // Full Screen
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
+    Mod+M { maximize-window-to-edges; }
+    Mod+Ctrl+F { expand-column-to-available-width; }
+
+
 
     Mod+C { center-column; }
 
