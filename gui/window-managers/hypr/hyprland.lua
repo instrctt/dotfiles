@@ -1,0 +1,11 @@
+-- Modules
+require("modules.decorations")
+require("modules.general")
+require("modules.animations")
+require("modules.env")
+require("modules.execs")
+require("modules.input")
+require("modules.keybinds")
+require("modules.monitors")
+require("modules.permissions")
+require("modules.rules")
