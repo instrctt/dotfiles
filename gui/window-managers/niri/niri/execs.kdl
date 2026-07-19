@@ -5,3 +5,6 @@
 spawn-at-startup "pipewire"
 spawn-at-startup "wireplumber"
 spawn-at-startup "pipewire-pulse"
+
+// # -- UI / Desktop
+spawn-at-startup "qs"
